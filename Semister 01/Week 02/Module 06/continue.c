@@ -1,3 +1,16 @@
+#include<stdio.h>
+int main(){
+    for(int i=150; i<=250;i++){
+        
+        if(i%2==0 && i%3==0 && i%5==0){
+            printf("is the numder %d\n", i);
+            continue;
+        }
+        printf("%d checking\n",i);
+    }
+}
+
+/*output
 is the numder 150
 151 checking
 152 checking
@@ -99,3 +112,5 @@ is the numder 240
 248 checking
 249 checking
 250 checking
+
+*/
