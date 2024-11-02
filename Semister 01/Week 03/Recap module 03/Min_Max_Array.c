@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <climits>
 int main(){
     int n;
     scanf("%d",&n);
@@ -22,7 +23,7 @@ int main(){
     a[min_pos]=a[max_pos];
     a[max_pos]=temp;
     for(int i=0; i<n; i++){
-        printf("%d",a[i]);
+        printf("%d ",a[i]);
     }
     printf("\n");
 
