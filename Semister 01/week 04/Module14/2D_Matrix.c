@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int n, m;
-    scanf("%d %d", &n, &m);
-    int a[n+5][m+5];
+    int n, m ,x;
+    scanf("%d %d", &n, &m, &x);
+    int a[n+5][m+5][x+5];
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
